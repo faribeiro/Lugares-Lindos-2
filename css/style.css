@@ -1,0 +1,158 @@
+*{
+    text-decoration: none;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+    text-align: justify;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+.menu{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: orangered;
+    letter-spacing: 2px;
+    word-spacing: 17px;
+    min-width: 386px;
+}
+
+.efeito-menu:hover{
+    text-shadow: 0 0 4px #acc4d8;
+}
+
+/*configurando a página html e body pro tamanhos*/
+h1,h3{
+    text-align: center;
+}
+
+.titulo{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+    margin-bottom: 1px;
+}
+
+/*container que terá largura total da página*/
+.containerFull{
+    width: 100%;
+    min-width: auto;
+}
+
+/*container que terá 80% total da página*/
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: inherit;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    align-items: center;
+}
+/*container copiado para uma página somente*/
+.container-catalogo{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: inherit;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-width: auto;
+}
+
+/*força a criação e organização em uma linha*/
+.rows{
+    display: inline-block;
+}
+
+/*colunas com 25% da largura da tela*/
+.cols1{
+    width: 25%;
+    margin: 20px;
+}
+
+/*colunas com 40% largura da tela*/
+.cols2{
+    width: 40%;
+    margin: 5px;
+}
+
+.rodape{
+    background-color: black;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.cor1{
+    background-color: #ffffff;
+}
+
+.bg1{
+    background-image: url(../img/london-bridge-g3b4c9499f_1280.jpg);
+    background-attachment: fixed;
+}
+.bg2{
+    background-image: url(../img/brazil-g3e4590910_1280.jpg);
+}
+.bg3{
+    background-image: url(../img/great-wall-of-china-g47ef8da58_640.jpg);
+}
+.bg4{
+    background-image: url(../img/winter-g464f7fa0f_1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg5{
+    background-image: url(../img/london-bridge-g3b4c9499f_1280.jp);
+    background-attachment: fixed;
+}
+.bg6{
+    background-image: url(../img/city-g515b3c5cd_1920.jpg);
+    background-attachment: fixed;
+}
+.bg7{
+    background-image: url(../img/abstract-gf602ba5a7_1920.png);
+    background-attachment: fixed;
+}
+.bg8{
+    background-image: url(../img/ama-dablam-g650caf308_1920.jpg);
+    background-attachment: fixed;
+}
+.bg9{
+    background-image: url(../img/greece-gb1f731f46_1280.jpg);
+    background-attachment: fixed;
+    background-repeat: round;
+}
+.bg10{
+    background-image: url(../img/eiffel-tower-g071f2c55b_1920.jpg);
+    background-attachment: fixed;
+}    
+.img1{
+    
+    width: 100%;
+}
+.img-dicas{
+    width: 100%;
+}
+.transp{
+    opacity: 0.9;
+}
+.txtmenu{
+    color: antiquewhite;
+    letter-spacing: 1px;
+}
+.centr{
+    text-align: center;
+}
